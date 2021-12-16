@@ -1,0 +1,18 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-color: rgb(142, 142, 255);
+}
+
+button.btn {
+	color: white;
+	background-color: rgb(105, 105, 255);
+}
+
+button.btn:hover {
+	color: white;
+	background-color: rgb(142, 142, 255);
+}
+
+a {
+	text-decoration: none;
+}

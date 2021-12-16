@@ -1,0 +1,56 @@
+body {
+	font-family: 'Muli', sans-serif;
+	background-color: rgb(236, 247, 255);
+}
+
+.profile a.edit,
+.update {
+	background-color: rgb(50, 50, 255);
+	transition: 0.3s;
+}
+
+.profile a.edit:hover,
+.update:hover {
+	background-color: rgba(50, 50, 255, 0.8);
+}
+
+.profile a.back,
+.back-profile {
+	background-color: rgb(255, 36, 36);
+	transition: 0.3s;
+}
+
+.profile a.back:hover,
+.back-profile:hover {
+	background-color: rgba(255, 36, 36, 0.8);
+}
+
+.profile a.create {
+	background-color: rgb(19, 255, 58);
+}
+
+.profile a.create:hover {
+	background-color: rgba(19, 255, 58, 0.8);
+}
+
+.navbar-nav a:last-child {
+	background-color: rgb(255, 25, 25);
+	height: 34px;
+	text-transform: uppercase;
+	padding: 0 1.2em;
+	text-align: center;
+	line-height: 34px;
+	font-size: 0.9em;
+	border-radius: 5px;
+	transition: 0.3s;
+}
+
+.navbar-nav a:last-child:hover {
+	background-color: rgba(255, 25, 25, 0.9);
+}
+
+@media screen and (min-width: 768px) {
+	.navbar-nav a:last-child {
+		margin-top: 1px;
+	}
+}

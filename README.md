@@ -1,4 +1,4 @@
-# IKDAP QUOTE
+# QUOTE APPS
 #### This is my second project that using PHP Programming Language.
 ##### Features in this website :
 ```
